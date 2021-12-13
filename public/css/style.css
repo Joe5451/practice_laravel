@@ -1,0 +1,205 @@
+* {
+    font-family: 'Segoe UI', sans-serif;
+}
+
+.main_header {
+    background: #fff;
+    box-shadow: 0 3px 3px rgba(0,0,0,.1);
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 15px;
+}
+
+.main_header_logo {
+    font-size: 30px;
+    color: #212121;
+    font-weight: bold;
+    font-family: 'Segoe UI', sans-serif;
+}
+
+.main_header_nav_inner_container {
+    display: flex;
+    align-items: center;
+    margin-bottom: 0;
+    list-style: none;
+}
+
+.main_header_link_wrap {
+    padding: 0 15px;
+}
+
+.main_header_link {
+    color: #707070;
+    transition: all 0.4s ease-in-out;
+}
+
+.main_header_link:hover {
+    color: #212121;
+}
+
+.height_space {
+    width: 100%;
+    /* height: 65px; */
+}
+
+/* 首頁 */
+.index_about_img_wrap {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.index_about_img {
+    width: 300px;
+    height: 300px;
+    object-fit: cover;
+}
+
+.index_about_title {
+    text-align: center;
+    margin-bottom: 20px;
+    line-height: 1;
+}
+
+.index_about_title_zh {
+    font-size: 36px;
+    color: #4FC3F7;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+.index_about_title_en {
+    font-size: 24px;
+    color: #F48FB1;
+}
+
+.index_about_content {
+    font-size: 20px;
+    text-align: center;
+    line-height: 1.5;
+}
+
+/* 首頁 - 最新消息 */
+.index_news_title {
+    text-align: center;
+    margin-bottom: 20px;
+    line-height: 1;
+}
+
+.index_news_title_zh {
+    font-size: 36px;
+    color: #4FC3F7;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+.index_news_title_en {
+    font-size: 24px;
+    color: #F48FB1;
+}
+
+.index_news_list {
+    display: flex;
+    color: #212121;
+    margin-bottom: 15px;
+}
+
+.index_news_list:hover {
+    text-decoration: none;
+    color: #212121
+}
+
+.index_news_year_and_date {
+    text-align: center;
+    font-size: 20px;
+    padding: 0 15px;
+}
+
+.index_news_list_title {
+    font-weight: bold;
+    font-size: 24px;
+    border-bottom: 1px solid #212121;
+    margin-bottom: 10px;
+}
+
+.index_news_list_summary {
+    text-overflow: ellipsis;
+    overflow: hidden;
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+    word-break: break-all;
+}
+
+/* 首頁 - 資訊卡 */
+.index_info_card {
+    padding: 0 15px;
+    margin-bottom: 30px;
+}
+
+.index_info_card_img {
+    width: 100%; /* 300 x 180 */
+    height: auto;
+    object-fit: cover;
+    margin-bottom: 15px;
+}
+
+.index_info_card_title {
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.index_info_card_text {
+    line-height: 1.5;
+}
+
+/* 首頁 - 服務客戶 */
+.index_service_customer_title {
+    text-align: center;
+    margin-bottom: 20px;
+    line-height: 1;
+}
+
+.index_service_customer_title_zh {
+    font-size: 36px;
+    color: #4FC3F7;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+.index_service_customer_title_en {
+    font-size: 24px;
+    color: #F48FB1;
+}
+
+.index_service_customer_img_wrap {
+    width: 20%;
+    padding: 0 10px;
+    margin-bottom: 20px;
+}
+
+.index_service_customer_img {
+    width: 100%;
+    height: auto;
+}
+
+@media (max-width: 991px) {
+    .index_service_customer_img_wrap {
+        width: 25%;
+    }
+}
+
+@media (max-width: 767px) {
+    .index_service_customer_img_wrap {
+        width: 33.33%;
+    }
+}
+
+@media (max-width: 767px) {
+    .index_service_customer_img_wrap {
+        width: 50%;
+    }
+}
