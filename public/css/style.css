@@ -22,8 +22,11 @@
 .main_header_nav_inner_container {
     display: flex;
     align-items: center;
+<<<<<<< HEAD
     margin-bottom: 0;
     list-style: none;
+=======
+>>>>>>> b059c648d427bb8e6a7a24b6275aac2918c1f4f9
 }
 
 .main_header_link_wrap {
@@ -37,6 +40,7 @@
 
 .main_header_link:hover {
     color: #212121;
+<<<<<<< HEAD
 }
 
 .height_space {
@@ -202,4 +206,6 @@
     .index_service_customer_img_wrap {
         width: 50%;
     }
+=======
+>>>>>>> b059c648d427bb8e6a7a24b6275aac2918c1f4f9
 }
