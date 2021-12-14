@@ -10,6 +10,10 @@
     justify-content: space-between;
     align-items: center;
     padding: 10px 15px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 100;
 }
 
 .main_header_logo {
@@ -22,11 +26,8 @@
 .main_header_nav_inner_container {
     display: flex;
     align-items: center;
-<<<<<<< HEAD
     margin-bottom: 0;
     list-style: none;
-=======
->>>>>>> b059c648d427bb8e6a7a24b6275aac2918c1f4f9
 }
 
 .main_header_link_wrap {
@@ -40,12 +41,11 @@
 
 .main_header_link:hover {
     color: #212121;
-<<<<<<< HEAD
 }
 
 .height_space {
     width: 100%;
-    /* height: 65px; */
+    height: 65px;
 }
 
 /* 首頁 */
@@ -206,6 +206,144 @@
     .index_service_customer_img_wrap {
         width: 50%;
     }
-=======
->>>>>>> b059c648d427bb8e6a7a24b6275aac2918c1f4f9
+}
+
+/* 頁腳 */
+.main_footer_body {
+    background: #212121;
+    padding: 80px 15px 40px;    
+}
+
+.main_footer_icon_container {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 30px;
+}
+
+.main_footer_icon_href {
+    margin: 0 15px;
+    font-size: 24px;
+    color: #fff;
+    background: #00B8D4;
+    width: 40px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    transition: all 0.4s ease-in-out;
+}
+
+.main_footer_icon_href:hover {
+    text-decoration: none;
+    color: #fff;
+    background: #F48FB1;
+}
+
+.main_footer_nav {
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.main_footer_link_wrap {
+    padding: 0 25px;
+}
+
+@media (max-width: 575px) {
+    .main_footer_link_wrap {
+        padding: 0 15px;
+    }
+}
+
+.main_footer_link_wrap:not(:last-child) {
+    border-right: 1px solid #fff;
+}
+
+.main_footer_link {
+    color: #fff;
+    transition: all 0.4s ease-in-out;
+}
+
+.main_footer_link:hover {
+    text-decoration: none;
+    color: #F48FB1;
+}
+
+.main_footer_copyright {
+    padding: 10px 15px;
+    text-align: center;
+    color: #fff;
+    background: #00B8D4;
+}
+
+/* ========== 內頁共同項目 ========== */
+.page_banner {
+    width: 100%;
+    height: 500px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.page_banner_content {
+    text-align: center;
+    width: 100%;
+    max-width: 600px;
+}
+
+.page_banner_title {
+    color: #4FC3F7;
+    margin-bottom: 5px;
+    font-weight: bold;
+    font-size: 60px;
+    line-height: 1;
+    text-shadow: 2px 2px 2px rgba(255,255,255,.5);
+}
+
+.page_banner_subtitle {
+    font-size: 40px;
+    color: #F48FB1;
+    line-height: 1;
+    text-shadow: 2px 2px 2px #fff;
+}
+
+@media (max-width: 767px) {
+    .page_banner {
+        height: 400px;
+    }
+
+    .page_banner_title {
+        font-size: 40px;
+    }
+
+    .page_banner_subtitle {
+        font-size: 28px;
+    }
+}
+
+@media (max-width: 575px) {
+    .page_banner {
+        height: 300px;
+    }
+}
+
+/* ========== 關於我們 ========== */
+
+.about_banner {
+    background: url('../img/about_banner.jpg') no-repeat center / cover;
+}
+
+.about_content {
+    line-height: 1.5;
+    font-size: 24px;
+    text-align: center;
+    color: #707070;
+}
+
+@media (max-width: 767px) {
+    .about_content {
+        font-size: 20px;
+    }
 }

@@ -16,7 +16,7 @@
                 <div class="index_about_wrap">
                     <div class="index_about_title">
                         <div class="index_about_title_zh">關於我們</div>
-                        <div class="index_about_title_en">About us</div>
+                        <div class="index_about_title_en">About Us</div>
                     </div>
                     <div class="index_about_content">創口類程答的球報可直為有然馬經細的將八？文格氣天多廣深化機上時系八識；廣主表進業們得注果這因工房險住經長常醫進技倒的爭王效吃一院是標雖生不銷任世？們色北東常它了！朋福民新畫、理出半候員的不電畫，近其表由大本一星或教。</div>
                 </div>
