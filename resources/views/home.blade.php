@@ -2,8 +2,6 @@
 
 @section('content')
 
-<div class="height_space"></div>
-
 <section class="py-5">
     <div class="container">
         <div class="row">
@@ -55,7 +53,7 @@
                     </div>
                 </div>
             </div>
-            <div class="col-lg-4 col-sm-6 col-12">
+            <!-- <div class="col-lg-4 col-sm-6 col-12">
                 <div class="index_info_card">
                     <img src="{{ asset('img/card.png') }}" class="index_info_card_img">
                     <div class="index_info_card_body">
@@ -81,7 +79,7 @@
                         <p class="index_info_card_text">創口類程答的球報可直為有然馬經細的將八？文格氣天多廣深化機上時系八識；廣主表進業們得注果這因工房!</p>
                     </div>
                 </div>
-            </div>
+            </div> -->
         </div>
     </div>
 </section>
