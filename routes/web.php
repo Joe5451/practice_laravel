@@ -14,9 +14,7 @@ use Illuminate\Support\Facades\Route;
 */
 
 // 在 heroku 路徑會變成 http，透過以下設定強制設為 https
-if($this->app->environment('production')) {
-    URL::forceScheme('https');
-}
+URL::forceScheme('https');
 
 Route::get('/', function () {
     return view('home');
