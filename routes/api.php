@@ -21,4 +21,4 @@ Route::middleware('auth:sanctum')->get('/user', function (Request $request) {
 });
 
 // Line Bot
-Route::post('/line', [LineBotController::class, 'test'])->name('line');
+Route::post('/line', [LineBotController::class, 'index'])->name('line');
