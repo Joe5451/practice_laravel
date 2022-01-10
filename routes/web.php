@@ -18,9 +18,9 @@ use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\LineBotController;
 
 // 在 heroku 路徑會變成 http，透過以下設定強制設為 https
-// URL::forceScheme('https');
+URL::forceScheme('https');
 
-Route::get('/line', [LineBotController::class, 'index'])->name('line');
+Route::post('/line', [LineBotController::class, 'index'])->name('line');
 
 Route::get('/', function () {
     return view('home');
