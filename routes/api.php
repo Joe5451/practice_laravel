@@ -14,6 +14,11 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
+use App\Http\Controllers\LineBotController;
+
 Route::middleware('auth:sanctum')->get('/user', function (Request $request) {
     return $request->user();
 });
+
+// Line Bot
+Route::post('/line', [LineBotController::class, 'test'])->name('line');
